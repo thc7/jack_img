@@ -1,0 +1,30 @@
+[
+    {
+        "path": "D:\\GitHub\\logo128.png",
+        "position": "bottom_right",
+        "offset_x": 10,
+        "offset_y": 10,
+        "scale": 1
+    },
+    {
+        "path": "D:\\GitHub\\logotext2.png",
+        "position": "top_left",
+        "offset_x": 35,
+        "offset_y": 25,
+        "scale": 1
+    },
+    {
+        "path": "D:\\GitHub\\3D_p.png",
+        "position": "bottom_left",
+        "offset_x": 10,
+        "offset_y": 10,
+        "scale": 0.9
+    },
+    {
+        "path": "D:\\GitHub\\logo128.png",
+        "position": "top_right",
+        "offset_x": 10,
+        "offset_y": 10,
+        "scale": 1
+    }
+]
