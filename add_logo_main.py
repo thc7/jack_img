@@ -133,8 +133,8 @@ if __name__ == "__main__":
     #input_directory = "input_images"
     #output_directory = "output_images"
     input_directory = "D:\\GitHub\\t001"
-    input_directory = "D:\\GitHub\\t002"
-    input_directory = "D:\\GitHub\\t003"
+    #input_directory = "D:\\GitHub\\t002"
+    #input_directory = "D:\\GitHub\\t003"
     output_directory = input_directory+"_logo"
     config_file = "D:\\GitHub\\logo_config.json"
     
