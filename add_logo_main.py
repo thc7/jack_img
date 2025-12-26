@@ -10,7 +10,11 @@ def add_multiple_logos_to_image(image_path, logo_configs, output_path):
     """
     base_image = Image.open(image_path).convert("RGB")
     base_width, base_height = base_image.size
-    
+    if base_width > 1024 or base_height > 768:
+        base_image = base_image.resize((1024, 768), Image.LANCZOS)
+        base_width, base_height = base_image.size
+        print(f"Processing image: {image_path}, size: {base_width}x{base_height}")
+
     for logo_config in logo_configs:
         logo_path = logo_config.get("path")
         position = logo_config.get("position", "bottom_right")
@@ -130,7 +134,7 @@ if __name__ == "__main__":
     #output_directory = "output_images"
     input_directory = "D:\\GitHub\\t001"
     input_directory = "D:\\GitHub\\t002"
-    #input_directory = "D:\\GitHub\\t003"
+    input_directory = "D:\\GitHub\\t003"
     output_directory = input_directory+"_logo"
     config_file = "D:\\GitHub\\logo_config.json"
     
